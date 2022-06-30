@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>改变字体颜色</title>
+</head>
+<body>
+<h1 id="t" align="center">Hello World!</h1>
+<h1 align="center">
+    <button onclick="a()"  style="color:#000000"  id="b1" >红色</button>
+    <button onclick="b()"  style="color:#000000"  id="b2" >复原</button>
+</h1>
+</body>
+<script>
+    function a()
+    {
+        document.getElementById("t").style.color="#ff0000";}
+    function b()
+    {
+        document.getElementById("t").style.color="#000000";}
+</script>
+</html>
