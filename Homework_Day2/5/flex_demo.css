@@ -1,0 +1,125 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.left{
+    width: 30%;
+    border-right: 1px solid black;
+    height: 100vh;
+}
+.right{
+    flex:1;
+    height: 100vh;
+}
+.top{
+    height: 10vh;
+    border-bottom: 1px solid black;
+}
+.right.bottom{
+    display: flex;
+}
+
+.bottom-left{
+    width: 45%;
+    border-right: 1px solid black;
+    height: 93vh;
+}
+.bottom-right{
+    flex:1;
+}
+.bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap:wrap;
+}
+body div,h2,p{
+
+    width: 100%;
+    text-align: center;
+}
+img.head{
+    margin-top: 60px;
+    height: 100px ;
+    width: 100px ;
+    border: 1px solid gray;
+    border-radius: 50%;
+}
+.icon-info
+{
+    justify-content: center;
+    display: flex;
+    margin-bottom: 30px;
+}
+.icon{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-size: 100% 100%;
+    margin: 20px 10px 0 10px;
+}
+.icon-info .set{
+    position: relative;
+    background-image: url("set.png");
+}
+.icon-info .email{
+    position: relative;
+    background-image: url("email.png");
+}
+.icon-info .ring{
+    position: relative;
+    background-image: url("ring.png");
+}
+
+div{
+    display: block;
+}
+.right .top {
+    display: flex;
+    border-bottom: 1px solid gray;
+    justify-content: space-between;
+    align-items: center;
+}
+.search input{
+    height: 100%;
+    box-sizing: border-box;
+    border-width: 0;
+    text-align: left;
+    outline: none;
+    font-size: 16px;
+    background-color: rgba(0, 0, 0, 0);
+}
+span.choose2{
+    width: calc(50% - 10px);
+    height: 6vh;
+    text-align: center;
+    line-height: 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+span.choose1{
+    background-color: rgb(67, 105, 222);
+    color: white;
+    border: rgba(0, 0, 0, 0) solid 1px;
+    border-radius: 10px;
+    width: calc(50% - 10px);
+    height: 6vh;
+    text-align: center;
+    line-height: 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.tab-choose{
+    width: 20%;
+    max-width: 100px;
+    height: 35px;
+    border: rgba(0, 0, 0, 0) solid 1px;
+    border-radius: 15px;
+    background-color: rgb(221, 220, 219);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 14px;
+}
