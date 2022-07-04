@@ -1,0 +1,40 @@
+body{
+    background-color: azure;
+    margin:0;
+    height: 100%;
+}
+.flex-center{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap:wrap;
+}
+.rectangle1{
+    width: 50vw;
+    height: 50vh;
+    background-color: bisque;
+    border: 4px solid black;
+    border-radius: 3%;
+}
+@media screen and (max-width: 1024px){
+    .rectangle1{
+        background-color: aquamarine;
+    }
+}
+@media screen and (max-width: 768px){
+    .rectangle1{
+        background-color: blueviolet;
+    }
+}
+@media screen and (max-width: 414px){
+    .rectangle1{
+        background-color: cadetblue;
+    }
+}
+@media screen and (max-width: 375px) and (-webkit-device-pixel-ratio: 3){
+    .rectangle1{
+        background-color: coral;
+    }
+}
